@@ -1,6 +1,12 @@
-.h1 {
+ #heading{
     text-align: center;
-    padding:right 50%;
-    position: relative;
-
+    color: red;
+}
+.logo {
+    float: left;
+}
+#paragraph {
+    text-align: center;
+    position: absolute;
+    top: 20%;
 }
