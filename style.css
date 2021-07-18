@@ -78,3 +78,6 @@ form input {
     background: transparent;
     background-color: rgba(0, 0, 0, 0.322);
 }
+footer {
+    text-align: center;
+}
