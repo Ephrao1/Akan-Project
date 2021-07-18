@@ -24,7 +24,7 @@
         <div id="main">
          <h3>Fill In Your Details</h3>
          <div>
-             <form action="">
+             <form id="form" action="">
              <div>
                  <label id="year" for="year">Year of birth</label>
                  <input name="year" type="text" id="birthyear" placeholder="Year of Birth" required>
@@ -36,12 +36,18 @@
             <div>
                 <label id="date" for="date">Date of birth</label>
                 <input name="date" type="text" id="birthdate" placeholder="Date of Birth" required>
-            </div>
+            </div><br>
+            <select name="Gender" id="gender">
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            </div><input class="btn btn-primary" type="button" value="submit" onclick="validateForm()">
+           <input class="btn btn-primary" type="button" value="Clear Selection" onclick="reset()">
         </form>
          </div>
         </div>
-    </div>
-    </div>
     
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
