@@ -38,7 +38,11 @@ function validateForm() {
      if(inputGender ==="Male"){
          alert("Your Akan name is " +akanName + "because you are male born on "+ dayNames[day])
      } else if (inputGender === "Female"){
-         
+         akanName = femaleNames[day]
+         alert("Your Akan name is " + akanName + "because you are a female born on"+ dayNames[day])
+
      }
  }
+
+ 
 
