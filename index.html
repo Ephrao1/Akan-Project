@@ -21,28 +21,32 @@
         <p>Akan is a language in Ghana. Its spoken by the Akan people. The Akan people frequently name their children after the day <br>of the week they were born. These names have further meanings concerning the souland the character of the person. <br>Here's an application that takes the users birthday and calculates the day of the week the user was born and also presents <br>the users Akan name depending on his/her gender.</p>
 
             <div>
-                <h2 id="head1">Get Your Akan Name Now!!</h2>
+                <h2 id="head1">Fill In Your Details</h2>
                 <form id="main">
-                    <h3>Fill In Your Details</h3>
+                    <div id="form">
                     <div>
                       <label id="year" for="year">Enter Year of Birth</label>
-                      <input name="year" type="text" id="birthYear" placeholder="Enter year of birth">
+                      <input name="year" type="text" id="birthYear" placeholder="Year of Birth">
                     </div>
                     <div>
                         <label id="month" for="month">Enter Birth Month</label>
-                        <input name="month" type="text" id="birthMonth" placeholder="Enter Birth month">
+                        <input name="month" type="text" id="birthMonth" placeholder="Month of Birth">
                     </div>
                     <div>
                         <label id="day" for="day">Date of birth</label>
-                        <input name="day" type="text" id="birthDay" placeholder="Enter birth date">
+                        <input name="day" type="text" id="birthDay" placeholder="Date of Birth">
                     </div>
+                </div>
+                <label class="Gen" for="">Gender</label><br>
                     <select class="form-control" name="Gender" id="gender">
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                      </select><br>
                   </form>
-                  <input class="btn btn-primary" type="button" value="submit" onclick="validateForm()">
-                  <input class="btn btn-primary" type="button" value="Clear Selection" onclick="reset()">
+                  <div id="buttons">
+                  <input class="btn btn-primary" type="button" value="Submit" onclick="validateForm()">
+                  <input class="btn btn-primary" type="button" value="Refresh" onclick="reset()">
+                </div>
             </div> 
         </div>
         <script src="index.js"></script>

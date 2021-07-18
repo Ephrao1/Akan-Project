@@ -42,9 +42,37 @@ form input {
     height: 40px;
     position: relative;
     background: transparent;
-    color: white;
+    color: rgba(255, 255, 255, 0.534);
     background-color: black;
+    box-shadow: none;
+    text-align: center;
+    font-size: 18px;
 }
 #form {
     color: #45f3ff;
+}
+#form label {
+    display: block;
+    transition: 0.5s;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.Gen {
+    color: #45f3ff;
+}
+.form-control {
+    width: 15%;
+    height: 28px;
+    font-size: 18px;
+    text-align: center;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+#button {
+    height: 25%;
+    width: 30px;
+    font-size: 15px;
+    position: relative;
+    color: black;
+    background-color: blue;
 }
