@@ -1,9 +1,9 @@
-### PROJECT NAME: AKAN NAMES
+# PROJECT NAME: AKAN NAMES.
 
-### Author: Ephraim Murimi
+# Author: Ephraim Murimi.
 
 ## Description
-# This is an aplication that takes your birth year, month and date and generates the day of the week your were born and your Akan name depending on your gender.
+### This is an aplication that takes your birth year, month and date and generates the day of the week your were born and your Akan name depending on your gender.
  
  ## Instructions
  * Enter valid year of birth
