@@ -68,11 +68,13 @@ form input {
     background: transparent;
     background-color: rgba(255, 255, 255, 0.404);
 }
-#button {
-    height: 25%;
-    width: 30px;
+.btn-primary {
+    height: 30%;
+    padding: 5px;
+    width: 7%;
     font-size: 15px;
     position: relative;
-    color: black;
-    background-color: blue;
+    color: whitesmoke;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.322);
 }
