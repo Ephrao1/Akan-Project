@@ -11,9 +11,16 @@ function validateForm() {
         alert("Insert correct month betwen 1 and 12"); return false;
     }
     if (day < 1 || day > 31) {
+        alert("Provide a valid date of birth"); return false;
+    }
+    if (year < 1920 || day > 2050) {
         alert("Provide a valid year of birth e.g 2021"); return false;
     }
-    if (month < 1 || day > 12) {
-        alert("Insert correct month betwen 1 and 12"); return false;
+    else{
+        getUserInformation()
     }
 }
+ var getUserInformation = function() {
+     let inputYear = document.getElementById("birthYear").value
+     let intYear = parseInt(inputYear)
+ }
