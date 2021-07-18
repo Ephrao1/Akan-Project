@@ -23,4 +23,22 @@ function validateForm() {
  var getUserInformation = function() {
      let inputYear = document.getElementById("birthYear").value
      let intYear = parseInt(inputYear)
+
+     let inputMonth = document.getElementById("birthMonth").value
+     let intMonth = parseInt(inputMonth)
+
+     let inputDay = document.getElementById("birthDay").value
+     let intDay = parseInt(inputDay)
+
+     let inputGender = document.getElementById("gender").value
+     let akanName;
+
+     let day = new Date(intYear+"-"+intMonth+"-"+inputDay).getDay()
+
+     if(inputGender ==="Male"){
+         alert("Your Akan name is " +akanName + "because you are male born on "+ dayNames[day])
+     } else if (inputGender === "Female"){
+         
+     }
  }
+
