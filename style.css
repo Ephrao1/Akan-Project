@@ -1,14 +1,17 @@
  #heading{
     text-align: center;
-    color: whitesmoke;
+    color: #45f3ff;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 3px 3px 7px black;
 }
 .logo {
     float: left;
 }
 #paragraph {
-    text-align: center;
+    font-size: 24px;
     position: absolute;
-    top: 20%;
+    color: whitesmoke;
 }
 body {
     background-image: url("./images/pic1.jpg");
@@ -17,4 +20,18 @@ body {
     position: absolute;
     height: 900px;
     width: 100%;
+    opacity: .8;
 }
+#head1 {
+    color: whitesmoke;
+    text-align: center;
+}
+#main {
+    text-align: center;
+}
+form {
+    justify-content: center;
+    align-items: center
+    ;
+}
+form
